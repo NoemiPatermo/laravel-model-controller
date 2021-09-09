@@ -10942,3 +10942,37 @@ a.text-dark:focus {
   }
 }
 
+body {
+  background-color: #FFE4C4;
+}
+
+body .container {
+  background-color: #E9967A;
+}
+
+body .container .row {
+  justify-content: center;
+  align-items: stretch;
+  padding: 30px;
+}
+
+body .container .row .movie-content {
+  margin: 10px;
+  text-align: center;
+}
+
+body .container .row .movie-content h4 {
+  padding-top: 10px;
+}
+
+body .container .row .movie-content img {
+  max-width: 100%;
+  box-shadow: 3px 2px #000;
+}
+
+body .container .row .content-text span {
+  font-size: small;
+  color: brown;
+  display: block;
+}
+

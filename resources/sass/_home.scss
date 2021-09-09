@@ -1,0 +1,33 @@
+body{
+   background-color:#FFE4C4;
+ .container {
+     background-color: #E9967A;
+    .row{
+        justify-content: center;
+        align-items: stretch;
+      
+        padding: 30px;
+        .movie-content{
+           margin: 10px;
+           text-align: center;
+               h4{
+                   padding-top: 10px;
+             
+               }
+            img {
+               max-width: 100%;
+                box-shadow:  3px 2px  #000;
+            }
+        }  .content-text span{
+                font-size:small;
+                color: brown;
+                display: block;
+               
+
+        }
+    }
+
+    
+ }
+    
+}
