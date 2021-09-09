@@ -13,7 +13,7 @@ class HomeController extends Controller
 
         $allMovies = Movie::all();// prendi tutti gli elementi all'interno della tua tabella [SELECT * FROM movies]
 
-         return view('home', compact('allMovies'));
+         return view('home', compact('allMovies')); //passa tutto l'array alla home
     }
      
 }
